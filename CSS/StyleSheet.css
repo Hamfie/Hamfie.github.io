@@ -28,3 +28,8 @@
 .dropdown-menu a:hover{
     background-color: #333533;
 }
+
+/* Set background color */
+body {
+    background-color: #F4F1DE;
+}
