@@ -1,0 +1,30 @@
+/* Customise the Navigation Bar */
+.navbar {
+    background-color:#181818;
+}
+
+.navbar a {
+    color:grey;
+    float: left;
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+}
+.navbar a:hover {
+    color:#FF9900;
+}
+
+.nav-item.active .nav-link{
+    color: white;
+}
+
+
+.dropdown-menu {
+    background-color: #181818;
+}
+
+.dropdown-menu a:hover{
+    background-color: #181818;
+}
