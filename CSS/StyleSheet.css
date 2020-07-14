@@ -46,28 +46,38 @@ body {
     margin-right: auto;   
 }
 
-
-/* Animate the icons to shake when hovered over*/
-.icon:hover {
-	animation: shake 1.0s;
-  
-	/* When the animation is finished, start again */
-	animation-iteration-count: infinite;
+/* Showcase CSS */
+.ShowcaseRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
   }
   
-  /* The values for the image to "rotate" */
-  @keyframes shake {
-	0% { transform: translate(1px, 1px) rotate(0deg); }
-	10% { transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { transform: translate(-3px, 0px) rotate(1deg); }
-	30% { transform: translate(3px, 2px) rotate(0deg); }
-	40% { transform: translate(1px, -1px) rotate(1deg); }
-	50% { transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { transform: translate(-3px, 1px) rotate(0deg); }
-	70% { transform: translate(3px, 1px) rotate(-1deg); }
-	80% { transform: translate(-1px, -1px) rotate(1deg); }
-	90% { transform: translate(1px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-
+  /* Create four equal columns that sits next to each other */
+  .ShowcaseColumn {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .ShowcaseColumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 1000px) {
+    .ShowcaseColumn {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .ShowcaseColumn {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
