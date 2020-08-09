@@ -4,15 +4,20 @@ body {
     /* Old one #F4F1DE */
 }
 
-/* Personality the Display-1 CSS */
-.display-1 {
+/* Paragraphs */
+.content {
+  width: 100%;
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.title {
+  width: 100%;
   font-family: 'Nanum Pen Script', cursive;
   text-align: center;
   color: black;
-  font-size: 200px;
-
 }
-
 
 /* Social media icons */
 .icon {	
@@ -24,6 +29,21 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;   
+}
+
+/* Stretch Text via y-axis */
+.condensed {
+  -webkit-transform: scale(1, 1.5);
+     -moz-transform: scale(1, 1.5);
+      -ms-transform: scale(1, 1.5);
+       -o-transform: scale(1, 1.5);
+          transform: scale(1, 1.5);
+}
+
+/* Logo Styling */
+.logo {
+  display: block;
+  margin: auto;
 }
 
 /* Showcase CSS */
@@ -48,34 +68,18 @@ body {
 }
   
 /* Responsive layout - makes a two column-layout instead of four columns */
-/* Shrinks the Title Size */
 @media screen and (max-width: 1000px) {
   .ShowcaseColumn {
     flex: 50%;
     max-width: 50%;
   }
-
-  .display-1 {
-    font-size: 150px;
-  }
 }
   
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-/* Shrinks the Title Size */
 @media screen and (max-width: 600px) {
   .ShowcaseColumn {
     flex: 100%;
     max-width: 100%;
-  }
-
-  .display-1 {
-    font-size: 100px;
-  }
-}
-/* Responsive layout - Shrinks the Title Size */
-@media screen and (max-width: 300px) {
-  .display-1 {
-    font-size: 70px;
   }
 }
 
