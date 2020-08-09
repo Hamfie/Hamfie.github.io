@@ -73,6 +73,13 @@ body {
     flex: 50%;
     max-width: 50%;
   }
+
+  /* Piggyback for the button */
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+  }
 }
   
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -81,27 +88,18 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+
+  /* Piggyback for the button */
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+  }
 }
 
 /* On Hover with Larger screens, scale up showcase images by a small value */
 @media screen and (min-width: 1000px) {
   .zoom:hover {
     transform: scale(1.02);
-  }
-}
-
-@media (max-width: 768px) {
-  .btn-responsive {
-    padding:2px 4px;
-    font-size:80%;
-    line-height: 1;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-  .btn-responsive {
-    padding:4px 9px;
-    font-size:90%;
-    line-height: 1.2;
   }
 }
