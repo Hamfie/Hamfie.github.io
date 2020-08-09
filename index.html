@@ -1,86 +1,92 @@
 <!doctype html>
-<html lang="en">
+<html lang = "en">
   <head>
 
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity = "sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin = "anonymous">
 
     <!-- Custom Style Sheet -->
-    <link rel="stylesheet" type="text/css" href="CSS/StyleSheet.css">
+    <link rel = "stylesheet" type = "text/css" href = "CSS/StyleSheet.css">
 
+    <!-- Page Title -->
     <title>Home</title>
 
+    <!-- Website Favicon -->
+    <link rel = "shortcut icon" type = "image/png" href = "Artwork/AuthorProfile.png">
+
+    <!-- Import Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Pen+Script&display=swap');
+    </style>
+    <!-- Using the fonts:
+    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;-->
   </head>
 
   <body >
-  <!-- Navigation Bar -->
-    <nav class = "navbar navbar-expand-sm">
-      <ul class = "navbar-nav">
-        <li class = "nav-item active">
-          <a class = "nav-link" href = "index.html">Home</a>
-        </li>
-
-        <li class = "nav-item dropdown">
-          <a class = "nav-link dropdown-toggle" id = "navbardrop" data-toggle = "dropdown" href = "#" aria-haspopup="true" aria-expanded="false">Commissions</a>
-          <div class = "dropdown-menu">
-            <a class = "dropdown-item" href = "Pages/Portrait.html">Portraits</a>
-            <a class = "dropdown-item" href = "Pages/FullBody.html">Full-Body</a>
-            <a class = "dropdown-item" href = "Pages/HalfBody.html">Half-Body</a>
-            <a class = "dropdown-item" href = "Pages/Chibi.html">Chibi</a>
-          </div>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Page Content -->
+    <!-- Author Details -->
     <div class = "container">
-      <div class = "row pt-5">
+
+      <!-- Author Title-->
+      <div class = "row">
         <div class = "col">
-          <div class = "container">
-            <h1 class = "display-3 text-center">Hamfie's Art</h1>
-            <hr>
-            <div class = "row pb-1">
-              <div class = "col-sm"> 
-                <p class = "lead">
-                  Hi there, welcome to my commission page! If you have any inquiries regarding what I will or will not draw, please contact me via Instagram or Twitter. You could also drop me an email.
-                  <br><br>Please understand that if you commission me, it may take a while for the process to begin depending on my schedule! I’m still a student and my education is my priority.
-                  <br>If I, unfortunately, cannot work on a piece, payment will be fully refunded. 
-                </p>
-                <div class = "row">
-                  <div class = "col-sm py-2">
-                    <p class = "lead text-center">Instagram</p>
-                    <a href = "https://www.instagram.com/hamfie_arts/" target = "_blank" title = "Click here to go to the artist's Instagram Profile"><img src ="Socials/instagram.png" alt = "The Instagram Logo" class = "icon"></a>
-                  </div>
-      
-                  <div class = "col-sm py-2">
-                    <p class = "lead text-center">Twitter</p>
-                    <a href = "https://twitter.com/hamfie_arts" target = "_blank" title = "Click here to go to the artist's Instagram Profile"><img src ="Socials/twitter.png" alt = "The Instagram Logo" class = "icon"></a>
-                  </div>
-                </div>
-              </div>
-              <div class = "col-lg">
-                <img class = "img-fluid" src = "Artwork/AuthorProfile.png">
-              </div>
-            </div>
-          </div>
+          <h1 class = "display-1">Hamfie</h1>
         </div>
+      </div>
+
+      <!-- Author Profile -->
+      <!--<div class = "row">
+        <div class = "col"></div>
+        <div class = "col-4">
+          <img class = "img-fluid" src = "Artwork/AuthorProfile.png">
+        </div>
+        <div class = "col"></div>
+      </div>-->
+
+      <!-- Other Links -->
+      <div class = "row">
+        <div class = "col"></div>
       </div>
     </div>
 
-  <!-- Footer -->
-  <footer class="page-footer font-small">
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://hamfie.github.io/"> HamfieArts</a>
+    <!-- Start Showcase -->
+    <div class = "ShowcaseRow">
+      <div class = "ShowcaseColumn">
+        <img class = "zoom" title = "Fullbody" src = "Artwork/FullBody/concept.png">
+        <img class = "zoom" title = "Fullbody" src = "Artwork/FullBody/LiborganProfile.png"> 
+      </div>
+      <div class = "ShowcaseColumn">
+        <img class = "zoom" title = "HalfBody" src = "Artwork/HalfBody/Charlies.png">
+        <img class = "zoom" title = "HalfBody" src = "Artwork/HalfBody/DharaKhan.png">
+        <img class = "zoom" title = "HalfBody" src = "Artwork/HalfBody/Ophelia.png">
+      </div>
+      <div class="ShowcaseColumn">
+        <img class = "zoom" title = "Portrait" src = "Artwork/Portrait/Druid.png">
+        <img class = "zoom" title = "Portrait" src = "Artwork/Portrait/OpheliaPortrait.png">
+        <img class = "zoom" title = "Portrait" src = "Artwork/Portrait/OpheliaPunk.png">
+      </div>
+      <div class="ShowcaseColumn">
+        <img class = "zoom" title = "Chibi" src = "Artwork/Chibi/AmiCommission.png">
+        <img class = "zoom" title = "Chibi" src = "Artwork/AuthorProfile.png">
+        <img class = "zoom" title = "Fullbody" src = "Artwork/FullBody/OracleOphe.png">
+      </div>
     </div>
-    <!-- Copyright -->
+    <!-- End Showcase -->
 
-  </footer>
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://hamfie.github.io/"> HamfieArts</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
 
 
     <!-- Optional JavaScript -->
@@ -88,5 +94,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
   </body>
 </html>
