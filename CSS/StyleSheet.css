@@ -1,6 +1,7 @@
 /* Set background color */
 body {
-    background-color: #F4F1DE;
+    background-color:#ebebeb ;
+    /* Old one #F4F1DE */
 }
 
 /* Personality the Display-1 CSS */
@@ -9,6 +10,7 @@ body {
   text-align: center;
   color: black;
   font-size: 200px;
+
 }
 
 
@@ -42,6 +44,7 @@ body {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  background-color: black;
 }
   
 /* Responsive layout - makes a two column-layout instead of four columns */
